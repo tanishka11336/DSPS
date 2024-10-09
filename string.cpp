@@ -76,7 +76,7 @@ void t::concate(){
     int i=len1;
     for(int j=0;s2[j]!='\0';j++)
     {
-    s1+=s2[j];
+    s1[i]+=s2[j];
      i++;
     }
     cout<<s1;
